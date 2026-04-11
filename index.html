@@ -4,7 +4,7 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html>
+<html lang="en">
 	<head>
 		<title>With Nature Forest School</title>
         <link rel="icon" type="image/x-icon" href="images/favicon.ico">
@@ -40,7 +40,11 @@
 						<div class="inner">
 							<h2>Available Sessions</h2>
 							<p>All sessions are led by a fully qualified and experienced primary teacher with Forest School and Wild Beach Leader level 3 certification. We are experienced in supporting children with SEND. Our leader is also a trained outdoor first aider with paediatrics, food hygiene and safety, who holds public liability insurance and DBS. All activities are fully risk assessed.</p>
-							<div class="items style1 medium onscroll-fade-in">
+					<div id="oakline-booking-widget" 
+						 data-api-url="https://withnature.oakline.app/api/public/tenants/withnature/sessions" 
+						 data-api-key="oak_d275180d4154487d28b36336d93122430b2c3863a83ccbfb">
+					</div>
+							<div class="items style1 medium "> <!-- onscroll-fade-in -->
 							<!--	<section>
 									<span class="icon solid style2 major fa-leaf"></span>
 									<h3>Halloween Holiday Club</h3>
@@ -48,13 +52,13 @@
 									<p>Join us for nature play, den building, obstacle courses, scavenger hunts, cooking around the campfire, and more.</p>
 									<p><a href="https://forms.gle/9wr1iqHWjCYbd9yM7">Book Winter Forest School</a></p>
 								</section> -->
-								<section>
+							<!--	<section>
 									<span class="icon solid style2 major fa-leaf"></span>
 									<h3>Winter Forest School</h3>
 									<h4>Monday Drop in Sessions 11am-2pm</h4>
 									<p>Ideal for 18 months to 11 year olds, with a designated 'calm hour' ideal for younger ones and children with SEN from 11-12. Join us for nature play, den building, obstacle courses, scavenger hunts, cooking around the campfire, and more.</p>
 									<p><a href="https://forms.gle/oRfX9FYjw585u9Kh6">Book Winter Forest School</a></p>
-								</section>
+								</section> -->
 								<section>
 									<span class="icon solid style2 major fa-leaf"></span>
 									<h3>Free Wellbeing Walks for Parents</h3>
@@ -77,7 +81,7 @@
 				<!-- Two -->
 					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
 						<div class="content">
-							<h2>With Nature offers:</h2>
+							<h2>With Nature offers</h2>
                             <p><strong>• Forest School</strong></p>
                             <p><strong>• Wild Beach School</strong></p>
                             <p><strong>• Parent and Child Groups</strong></p>
@@ -112,7 +116,7 @@
 						</div>
 					</section>
 
-					<section class="wrapper style1 align-center" id="sessions">
+					<section class="wrapper style1 align-center" id="terms">
 						<div class="inner">
 							<h2>Booking Terms and Conditions</h2>
 							<p>All policies, procedures and Risk/Benefit Assessments are available on request. Please email: <a href="mailto:info.withnature@gmail.com">info.withnature@gmail.com</a> with the subject line 'Document Request' and you will be sent your requested documents.  </p>
@@ -148,13 +152,17 @@
 					</section>
  -->
 				<!-- Footer -->
-					<footer class="wrapper style1 align-center">
-						<img src="images/east-kent-mind-ambassador-logo.png">
-						<img src="images/yhmfa_badge.png">
-						<div class="inner">
+					<footer class="wrapper style1 align-center onscroll-image-fade-in">
+						<div class="image">
+							<img src="images/east-kent-mind-ambassador-logo.png">
+							<img src="images/yhmfa_badge.png"> <br>
+							<img src="images/association_membership_badge_white.png">
+						</div>
+						
+						<div class="spotlight inner">
 							<ul class="icons">
 								<li><a href="https://instagram.com/withnature.eastkent/" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="https://www.facebook.com/share/1CTHRd8Bs5/" class="icon brands style2 fa-facebook"><span class="label">Facebook></a></li>
+								<li><a href="https://www.facebook.com/share/1CTHRd8Bs5/" class="icon brands style2 fa-facebook"><span class="label">Facebook</span></a></li>
 								<li><a href="mailto:info.withnature@gmail.com" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
 							</ul>
 							<p>&copy; With Nature. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
@@ -172,6 +180,9 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
+		<!-- Oakline Embed Script -->
+    		<script src="https://withnature.oakline.app/widgets/oakline-embed.js" defer></script>
+		
 	</body>
 </html>
 
